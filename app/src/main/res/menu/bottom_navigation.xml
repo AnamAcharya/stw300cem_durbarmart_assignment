@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/AbouttUs"
+
+        android:title="About Us"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us" />
+
+    <item
+        android:title="Our Store">
+
+        <menu>
+
+            <item
+                android:id="@+id/locationPutalisadak"
+                android:title="putalisadak" />
+
+            <item
+                android:id="@+id/locationLokanthali"
+                android:title="Lokanthali" />
+
+
+
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/rating"
+        android:title="Rating" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodMart</string>
+    <string name="top_icon">TOP ICON</string>
+
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_lokanthali_maps">Map</string>
+    <string name="title_activity_putalisadak_maps">Map</string>
+
+</resources>

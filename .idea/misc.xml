@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/drawable-v24/wave.xml" value="0.3223684210526316" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/drawable/ic_add.xml" value="0.3223684210526316" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/drawable/ic_baseline_about.xml" value="0.3223684210526316" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.3223684210526316" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_about_us_.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_add_products.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_add_to_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_contact_us_.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_home.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_lokanthali_maps.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_order.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_putalisadak_maps.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_rate_us__a_ctivity.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_register.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_splash_screen.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/activity_view.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/adapter_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/app_bar_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/drink_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/fragment_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/fragment_home.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/fragment_order.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/fragment_profile.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/frozen_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/fruit_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/noodles_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/order_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/veg_layout.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/Darbar_mart/app/src/main/res/layout/view.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_login.xml" value="0.1323529411764706" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_order.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_rate_us__a_ctivity.xml" value="0.15059982862039417" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_register.xml" value="0.3087719298245614" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/drink_layout.xml" value="0.12681159420289856" />
+        <entry key="..\:/rose/nis/FoodMart/app/src/main/res/layout/fragment_order.xml" value="0.3087719298245614" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--    app:cardElevation="3dp"-->
+
+    <!--    android:foreground="?selectableItemBackground"-->
+    <!--    android:clickable="true">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ramen Noodles"
+                android:textSize="16sp"
+                android:layout_below="@+id/item_image"
+                android:textStyle="bold"
+                android:padding="10dp"
+                />
+            <LinearLayout
+                android:id="@+id/li"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Price : "
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_marginTop="180dp"/>
+                <TextView
+                    android:id="@+id/value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="0000"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_marginTop="180dp"/>
+
+
+            </LinearLayout>
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:stepSize="0.1"
+                android:rating="4.5"
+                android:numStars="5"
+                android:padding="10dp"
+                android:layout_below="@+id/li"/>
+
+            <Button
+                android:id="@+id/cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/li"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/rating"
+                android:text="cart" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
