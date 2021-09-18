@@ -1,3 +1,4 @@
 include ':foodmartwearos'
 include ':app'
 rootProject.name = "FoodMart"
+include ':durbarmartwearos'
