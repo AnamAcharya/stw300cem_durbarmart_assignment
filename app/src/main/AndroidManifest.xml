@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.anamacharya.drubarmart">
+    package="com.anamacharya.drubarmart" >
+
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -15,9 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Groceries"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true" >
 
-        <activity android:name="com.anamacharya.drubarmart.OrderActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -30,32 +30,39 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
-            android:name="com.anamacharya.drubarmart.KalankiMapsActivity"
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".OrderActivity" />
+        <activity
+            android:name=".KalankiMapsActivity"
             android:label="@string/title_activity_putalisadak_maps" />
         <activity
-            android:name="com.anamacharya.drubarmart.DillibazarMapsActivity"
+            android:name=".DillibazarMapsActivity"
             android:label="@string/title_activity_lokanthali_maps" />
-        <activity android:name="com.anamacharya.drubarmart.RateusActivity" />
-        <activity android:name="com.anamacharya.drubarmart.ContactUs_Activity" />
-        <activity android:name="com.anamacharya.drubarmart.About_us_Activity" />
-        <activity android:name="com.anamacharya.drubarmart.AddToCartActivity" />
-
-
-        <activity android:name="com.anamacharya.drubarmart.AddProducts" />
-        <activity android:name="com.anamacharya.drubarmart.ViewActivity" />
-        <activity android:name="com.anamacharya.drubarmart.HomeActivity" />
-        <activity android:name="com.anamacharya.drubarmart.SplashScreenActivity">
+        <activity android:name=".RateusActivity" />
+        <activity android:name=".ContactUs_Activity" />
+        <activity android:name=".About_us_Activity" />
+        <activity android:name=".AddToCartActivity" />
+        <activity android:name=".AddProducts" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.anamacharya.drubarmart.DashboardActivity" />
-        <activity android:name="com.anamacharya.drubarmart.RegisterActivity" />
-        <activity android:name="com.anamacharya.drubarmart.LoginActivity" />
-        <activity android:name="com.anamacharya.drubarmart.MainActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

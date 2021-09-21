@@ -9,5 +9,6 @@
     <string name="title_activity_location">Map</string>
     <string name="title_activity_lokanthali_maps">Map</string>
     <string name="title_activity_putalisadak_maps">Map</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
