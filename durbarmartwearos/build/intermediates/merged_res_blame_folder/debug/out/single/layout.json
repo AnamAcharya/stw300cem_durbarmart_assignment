@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dashboard.xml",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\layout\\activity_dashboard.xml"
+    }
+]

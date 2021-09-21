@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\rose\\nis\\Darbar_mart\\durbarmartwearos\\src\\main\\res\\layout\\activity_login.xml"
+    }
+]

@@ -1,0 +1,6 @@
+com/example/durbarmartwearos/databinding/ActivityDashboardBinding.java
+ com.example.durbarmartwearos.databinding.ActivityDashboardBinding
+com/example/durbarmartwearos/databinding/ActivityLoginBinding.java
+ com.example.durbarmartwearos.databinding.ActivityLoginBinding
+com/example/durbarmartwearos/BuildConfig.java
+ com.example.durbarmartwearos.BuildConfig

@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.durbarmartwearos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:5:5-68
+11-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:5:22-65
+12
+13    <uses-feature android:name="android.hardware.type.watch" />
+13-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:7:5-64
+13-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:7:19-61
+14    <uses-feature android:name="android.hardware.type.watch" />
+14-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:7:5-64
+14-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:7:19-61
+15
+16    <application
+16-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:10:5-44:19
+17        android:allowBackup="true"
+17-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\8b40e7d4765cc5223061e9e2083ca81b\core-1.6.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:13:9-41
+23        android:supportsRtl="true"
+23-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@android:style/Theme.DeviceDefault" >
+25-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:15:9-59
+26        <activity
+26-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:16:9-24:20
+27            android:name="com.example.durbarmartwearos.DashboardActivity"
+27-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:17:13-46
+28            android:exported="true" >
+28-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:18:13-36
+29            <intent-filter>
+29-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:20:17-69
+30-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:22:17-77
+32-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <uses-library
+36-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:26:9-28:39
+37            android:name="com.google.android.wearable"
+37-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:27:13-55
+38            android:required="true" />
+38-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:28:13-36
+39        <!--
+40               Set to true if your app is Standalone, that is, it does not require the handheld
+41               app to run.
+42        -->
+43        <meta-data
+43-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:33:9-35:36
+44            android:name="com.google.android.wearable.standalone"
+44-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:34:13-66
+45            android:value="true" />
+45-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:35:13-33
+46
+47        <activity
+47-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:37:9-42:20
+48            android:name="com.example.durbarmartwearos.LoginActivity"
+48-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:38:13-42
+49            android:exported="true"
+49-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:39:13-36
+50            android:label="@string/app_name" >
+50-->D:\rose\nis\Darbar_mart\durbarmartwearos\src\main\AndroidManifest.xml:40:13-45
+51        </activity>
+52        <activity
+52-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\b825db2a1e7efe5dd765c156c309e9bf\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\b825db2a1e7efe5dd765c156c309e9bf\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\b825db2a1e7efe5dd765c156c309e9bf\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\b825db2a1e7efe5dd765c156c309e9bf\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\f4e0629b753bf5d6b0846cc8f3d9b085\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\f4e0629b753bf5d6b0846cc8f3d9b085\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ROG\.gradle\caches\transforms-2\files-2.1\f4e0629b753bf5d6b0846cc8f3d9b085\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+60    </application>
+61
+62</manifest>
