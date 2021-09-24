@@ -159,8 +159,8 @@ class HomeFragment : Fragment(), SensorEventListener {
             linear5.setBackgroundResource(R.color.white)
         }
 
-
     }
+
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
 
     }
@@ -182,8 +182,8 @@ class HomeFragment : Fragment(), SensorEventListener {
                         startActivity(Intent(context, ContactUs_Activity::class.java))
                         true
                     }
-                    R.id.locationLokanthali -> {
-                        startActivity(Intent(context, DillibazarMapsActivity::class.java))
+                    R.id.locDillibazar -> {
+                        startActivity(Intent(context, com.anamacharya.drubarmart.DillibazarMapsActivity::class.java))
                         true
                     }
                     R.id.locationPutalisadak -> {
@@ -266,8 +266,6 @@ class HomeFragment : Fragment(), SensorEventListener {
 
             }
         }
-
-
 
     }
 
